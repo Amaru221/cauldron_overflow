@@ -21,6 +21,8 @@ class QuestionController extends AbstractController
      */
     public function show($slug){
 
+        dump($slug, $this);
+
         $answers = [
             'Make sure your cat is sitting purrrfectly still?',
             'Honestly, I like furry shoes better than MY cat',
